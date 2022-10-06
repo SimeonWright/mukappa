@@ -1,0 +1,846 @@
+*{
+    box-sizing: border-box;
+}
+body {
+    background-color: white;
+    
+}
+section{
+    border: 1px solid black;
+    width: 100%;
+    /* height: 550px; */
+    font-family: 'Source Sans Pro', sans-serif;
+    
+    
+}
+
+header{
+    border: 1px solid black;
+    width: 100%;
+    height: 80px;
+    background-color: rgb(131, 43, 43);
+    text-align: center;
+    color: white;
+    /* font-family: 'Source Sans Pro', sans-serif; */
+}
+h1{
+    font-weight: 800;
+    font-size: 313%;
+    text-transform: uppercase;
+    font-family: 'Philosopher', sans-serif;
+    margin: 1%;
+    /* margin-bottom: 85%; */
+    text-align: center;
+    display: inline-block;
+    
+}
+
+
+.homepage{
+    background-image: url("mk.png");
+    background-size: 23%;
+    background-repeat: no-repeat;
+    /* background-position-x: 45%; */
+    background-color: rgba(170, 170, 85, 0.384);
+    background-position: center;
+    color: white;
+    height: 640px;
+    /* mix-blend-mode:darken; */
+    
+    
+}
+
+.homepage section{
+    border: none;
+    mix-blend-mode:darken ;
+}
+
+#home1{
+    /* border: 2px solid black; */
+    height: 87%;
+    width: 33%;
+    margin: 0%;
+    float: left;
+}
+
+#s1{
+    
+    display: inline-block;
+    margin-top: 35%;
+    margin-left: 25%;
+}
+#s2{
+    
+    /* float: left; */
+    display: inline-block;
+    margin-top: 35%;
+    margin-left: 5%;
+}
+
+.homepage li{
+    float:left;
+    font-size: 115%;
+    margin-left: 21%; 
+    text-align: center;
+    font-family: 'Philosopher', sans-serif;
+    color: rgb(0, 0, 0);
+    list-style: none;
+    border-bottom: 1px solid rgb(131, 43, 43);
+}
+
+
+.program{
+    height: 600px;
+    font-family: 'EB Garamond', serif;
+    font-size: 120%;
+    /* background: red; */
+    float: left;
+}
+
+h3{
+    text-transform: uppercase;
+    
+}
+h2{
+    text-align: center;
+    
+}
+
+
+.p1{
+width: 33%;
+float: left;
+border: none;
+font-family: 'EB Garamond', serif;
+}
+.program li{
+    list-style: none;
+}
+.p1 h3{
+    font-size: 95%;
+    line-height: 105%;
+}
+
+.p3 h3{
+    font-size: 95%;
+    line-height: 105%;
+}
+.p2{
+    width: 33%;
+    float: left;
+    border: none;
+}
+
+.p2 img{
+    width: 100%;
+    height: 100%;
+    margin-top: 8%;
+} 
+
+.p3{
+width: 33%;
+float: left;
+border: none;
+font-family: 'EB Garamond', serif;
+}
+
+
+
+.menu{  
+    font-family: 'EB Garamond', serif;
+    float:left;
+    background-color: rgba(170, 170, 85, 0.384);
+}
+.menu img{
+    width: 65%;
+    height: 100%;
+    opacity: 0.4;
+    float: right;
+    mix-blend-mode:darken ;
+}
+.menu li {
+    /* text-align: center; */
+    list-style: none;
+    line-height: 150%;
+    font-size: 150%;
+    /* margin-top: 3%; */
+    opacity: 100%;
+}
+
+.Directory{
+height: 800px;
+border: none;
+color: rgb(136, 43, 43);
+float:left;
+font-family: 'EB Garamond', serif;
+}
+.Directory>h2{
+    color: black;
+    font-size: 200%;
+    display: block;
+    text-transform: uppercase;
+}
+#tan{
+    background-color: rgba(170, 170, 85, 0.384);
+}
+.left{
+    width: 50%;
+    float: left;
+    height: 800px;
+    border: none;
+}
+.right{
+    width: 100%;
+    float: left;
+    height: 800px;
+    border: none;
+}
+
+/* .left section{
+    width: 100%;
+    height: 8%;
+    
+} */
+.right section{
+    width: 100%;
+    height: 80%;
+}
+
+.right h2{
+    /* border: 1px solid #000000; */
+    font-family: 'EB Garamond', serif;
+    text-transform: uppercase;
+}
+
+.s82 section{
+    border: 1px solid black;
+    width: 33%;
+    float: left;
+    font-family: 'EB Garamond', serif;
+    text-align: center;
+    font-size: 145%;
+    height: 50%;
+}
+
+#bottom1{
+    border: 1px solid black;
+    width: 50%;
+    float: left;
+    height: 38%;
+}
+
+#bottom2{
+    border: 1px solid black;
+    width: 50%;
+    float: left;
+    height: 38%;
+}
+.s82 p{
+    display: inline-block;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+}
+.s82 img{
+    width: 80%;
+    height: 80%; 
+    margin-left: 10%;
+    margin-top: 5%;
+    border-radius: 99%;
+}
+.f82 section{
+    border: none;
+    width: 48%;
+    float: left;
+    font-family: 'EB Garamond', serif;
+    text-align: center;
+    font-size: 145%;
+    margin-left: 25%;
+}
+.f82 p{
+    display: inline-block;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+}
+.f82 img{
+    width: 70%;
+    height: 70%;
+    margin-left: 10%;
+    margin-top: 5%;
+    border-radius: 99%;
+}
+.f83 section{
+    border: none;
+    width: 33%;
+    float: left;
+    font-family: 'EB Garamond', serif;
+    text-align: center;
+    font-size: 145%;
+}
+.f83 p{
+    display: inline-block;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+}
+.f83 img{
+    width: 80%;
+    height: 80%;
+    border: 2px solid white;
+    margin-left: 10%;
+    margin-top: 5%;
+    border-radius: 99%;
+}
+.s83 section{
+    float: left;
+    width: 25%;
+    height: 45%;
+    /* background: pink; */
+}
+
+.s83 img{
+    width: 70%;
+    height: 65%;
+    margin-left: 10%;
+    margin-top: 5%;
+    border-radius: 99%;
+}
+
+.s84 section{
+    border: none;
+    width: 48%;
+    float: left;
+    font-family: 'EB Garamond', serif;
+    text-align: center;
+    font-size: 145%;
+}
+.s84 p{
+    display: inline-block;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+}
+.s84 img{
+    width: 80%;
+    height: 80%;
+ 
+    margin-left: 10%;
+    margin-top: 5%;
+    border-radius: 99%;
+}
+
+.s86 section{
+    border: 1px solid black;
+    width: 33%;
+    float: left;
+    font-family: 'EB Garamond', serif;
+    text-align: center;
+    font-size: 145%;
+    height: 50%;
+}
+
+#bottom1{
+    border: 1px solid black;
+    width: 50%;
+    float: left;
+    height: 38%;
+}
+
+#bottom2{
+    border: 1px solid black;
+    width: 50%;
+    float: left;
+    height: 38%;
+}
+.s86 p{
+    display: inline-block;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+}
+.s86 img{
+    width: 80%;
+    height: 80%; 
+    margin-left: 10%;
+    margin-top: 5%;
+    border-radius: 99%;
+}
+
+
+.s87 section{
+    border: none;
+    width: 48%;
+    float: left;
+    font-family: 'EB Garamond', serif;
+    text-align: center;
+    font-size: 145%;
+    margin-left: 25%;
+}
+.s87 p{
+    display: inline-block;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+}
+.s87 img{
+    width: 70%;
+    height: 70%;
+    margin-left: 10%;
+    margin-top: 5%;
+    border-radius: 99%;
+}
+
+.s88 section{
+    border: none;
+    width: 48%;
+    float: left;
+    font-family: 'EB Garamond', serif;
+    text-align: center;
+    font-size: 145%;
+    margin-left: 25%;
+}
+.s88 p{
+    display: inline-block;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+}
+.s88 img{
+    width: 70%;
+    height: 70%;
+    margin-left: 10%;
+    margin-top: 5%;
+    border-radius: 99%;
+}
+
+.s89 section{
+    border: none;
+    width: 33%;
+    float: left;
+    font-family: 'EB Garamond', serif;
+    text-align: center;
+    font-size: 145%;
+    height: 46%;
+    
+}
+#under{
+width: 50%;
+float: left;
+height: 46%;
+margin-left: 24%;
+}
+.s89 p{
+    display: inline-block;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+}
+
+.s89 img{
+    width: 65%;
+    height: 60%;
+    margin-left: 16%;
+    margin-top: 5%;
+    border-radius: 99%;
+}
+.f89 section{
+    border: none;
+    width: 48%;
+    float: left;
+    font-family: 'EB Garamond', serif;
+    text-align: center;
+    font-size: 145%;
+    margin-left: 25%;
+}
+.f89 p{
+    display: inline-block;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+}
+.f89 img{
+    width: 70%;
+    height: 70%;
+    margin-left: 10%;
+    margin-top: 5%;
+    border-radius: 99%;
+}
+.s90 section{
+    border: none;
+    width: 48%;
+    float: left;
+    font-family: 'EB Garamond', serif;
+    text-align: center;
+    font-size: 145%;
+    margin-left: 25%;
+}
+.s90 p{
+    display: inline-block;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+}
+.s90 img{
+    width: 70%;
+    height: 70%;
+    margin-left: 10%;
+    margin-top: 5%;
+    border-radius: 99%;
+}
+
+.f91 section{
+    border: none;
+    width: 33%;
+    float: left;
+    font-family: 'EB Garamond', serif;
+    text-align: center;
+    font-size: 145%;
+}
+.f91 p{
+    display: inline-block;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+}
+.f91 img{
+    width: 80%;
+    height: 80%;
+    margin-left: 10%;
+    margin-top: 5%;
+    border-radius: 99%;
+}
+.s93 section{
+    border: none;
+    width: 33%;
+    float: left;
+    font-family: 'EB Garamond', serif;
+    text-align: center;
+    font-size: 145%;
+    height: 46%;
+    
+}
+#ha{
+width: 30%;
+float: left;
+height: 46%;
+margin-left: 35%;
+}
+.s93 p{
+    display: inline-block;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+}
+.s93 img{
+    width: 65%;
+    height: 60%;
+    margin-left: 16%;
+    margin-top: 5%;
+    border-radius: 99%;
+}
+
+.s96 section{
+    border: none;
+    width: 48%;
+    float: left;
+    font-family: 'EB Garamond', serif;
+    text-align: center;
+    font-size: 145%;
+    margin-left: 25%;
+}
+.s96 p{
+    display: inline-block;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+}
+.s96 img{
+    width: 70%;
+    height: 70%;
+    margin-left: 10%;
+    margin-top: 5%;
+    border-radius: 99%;
+}
+
+.s07 section{
+    border: none;
+    width: 33%;
+    float: left;
+    font-family: 'EB Garamond', serif;
+    text-align: center;
+    font-size: 145%;
+    height: 46%;
+    
+}
+
+.s07 p{
+    display: inline-block;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+}
+.s07 img{
+    width: 65%;
+    height: 60%;
+    margin-left: 16%;
+    margin-top: 5%;
+    border-radius: 99%;
+}
+
+#sp08{
+    height: 640px;
+}
+.s08{
+    /* height: 100%; */
+    background: green;
+}
+
+.s08 section{
+    float: left;
+    width: 25%;
+    height: 45%;
+    background: pink;
+}
+
+.s08 img{
+    width: 70%;
+    height: 65%;
+    margin-left: 10%;
+    margin-top: 5%;
+    border-radius: 99%;
+}
+
+.s09 section{
+    border: none;
+    width: 33%;
+    float: left;
+    font-family: 'EB Garamond', serif;
+    text-align: center;
+    font-size: 145%;
+    height: 46%;
+    
+}
+#ha{
+width: 50%;
+float: left;
+height: 46%;
+margin-left: 24%;
+}
+.s09 p{
+    display: inline-block;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+}
+
+.s09 img{
+    width: 65%;
+    height: 60%;
+    margin-left: 16%;
+    margin-top: 5%;
+    border-radius: 99%;
+}
+
+.s10 section{
+    border: 1px solid black;
+    width: 33%;
+    float: left;
+    font-family: 'EB Garamond', serif;
+    text-align: center;
+    font-size: 145%;
+    height: 50%;
+}
+
+#bottom1{
+    border: 1px solid black;
+    width: 50%;
+    float: left;
+    height: 38%;
+}
+
+#bottom2{
+    border: 1px solid black;
+    width: 50%;
+    float: left;
+    height: 38%;
+}
+.s10 p{
+    display: inline-block;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+}
+.s10 img{
+    width: 80%;
+    height: 80%; 
+    margin-left: 10%;
+    margin-top: 5%;
+    border-radius: 99%;
+}
+
+.f11 section{
+    border: 1px solid black;
+    width: 33%;
+    float: left;
+    font-family: 'EB Garamond', serif;
+    text-align: center;
+    font-size: 145%;
+    height: 50%;
+}
+
+#bottom1{
+    border: 1px solid black;
+    width: 50%;
+    float: left;
+    height: 38%;
+}
+
+#bottom2{
+    border: 1px solid black;
+    width: 50%;
+    float: left;
+    height: 38%;
+}
+.f11 p{
+    display: inline-block;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+}
+.f11 img{
+    width: 80%;
+    height: 80%; 
+    margin-left: 10%;
+    margin-top: 5%;
+    border-radius: 99%;
+}
+
+.s13 section{
+    border: none;
+    width: 33%;
+    float: left;
+    font-family: 'EB Garamond', serif;
+    text-align: center;
+    font-size: 145%;
+}
+.s13 p{
+    display: inline-block;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+}
+.s13 img{
+    width: 80%;
+    height: 80%;
+    border: 2px solid white;
+    margin-left: 10%;
+    margin-top: 5%;
+    border-radius: 99%;
+}
+
+.s16 section{
+    border: none;
+    width: 33%;
+    float: left;
+    font-family: 'EB Garamond', serif;
+    text-align: center;
+    font-size: 145%;
+}
+.s16 p{
+    display: inline-block;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+}
+
+.s16 img{
+    width: 80%;
+    height: 80%;
+    border: 2px solid white;
+    margin-left: 10%;
+    margin-top: 5%;
+    border-radius: 99%;
+}
+
+.f16 section{
+    border: none;
+    width: 33%;
+    float: left;
+    font-family: 'EB Garamond', serif;
+    text-align: center;
+    font-size: 145%;
+}
+.f16 p{
+    display: inline-block;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+}
+.f16 img{
+    width: 80%;
+    height: 80%;
+    border: 2px solid white;
+    margin-left: 10%;
+    margin-top: 5%;
+    border-radius: 99%;
+}
+
+.s17 section{
+    border: 1px solid black;
+    width: 33%;
+    float: left;
+    font-family: 'EB Garamond', serif;
+    text-align: center;
+    font-size: 145%;
+    height: 50%;
+}
+
+#bottom1{
+    border: 1px solid black;
+    width: 50%;
+    float: left;
+    height: 38%;
+}
+
+#bottom2{
+    border: 1px solid black;
+    width: 50%;
+    float: left;
+    height: 38%;
+}
+.s17 p{
+    display: inline-block;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+}
+.s17 img{
+    width: 80%;
+    height: 80%; 
+    margin-left: 10%;
+    margin-top: 5%;
+    border-radius: 99%;
+}
+.f18 section{
+    border: none;
+    width: 48%;
+    float: left;
+    font-family: 'EB Garamond', serif;
+    text-align: center;
+    font-size: 145%;
+}
+.f18 p{
+    display: inline-block;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+}
+.f18 img{
+    width: 80%;
+    height: 80%;
+    border: 2px solid white;
+    margin-left: 10%;
+    margin-top: 5%;
+    border-radius: 99%;
+}
+
+.s20 section{
+    border: none;
+    width: 48%;
+    float: left;
+    font-family: 'EB Garamond', serif;
+    text-align: center;
+    font-size: 145%;
+    margin-left: 25%;
+}
+.s20 p{
+    display: inline-block;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+}
+.s20 img{
+    width: 70%;
+    height: 70%;
+    margin-left: 10%;
+    margin-top: 5%;
+    border-radius: 99%;
+}
