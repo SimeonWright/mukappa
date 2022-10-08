@@ -6,10 +6,15 @@ body {
     
 }
 section{
-    border: 1px solid black;
+    border: transparent;
     width: 100%;
     /* height: 550px; */
     font-family: 'Source Sans Pro', sans-serif;
+}
+p{
+    font-family: 'EB Garamond', serif;
+    text-align: center;
+    font-weight: 800;
 }
 
 header{
@@ -21,6 +26,19 @@ header{
     color: white;
     /* font-family: 'Source Sans Pro', sans-serif; */
 }
+ footer{
+    background-color: rgb(131, 43, 43);
+    color: white;
+    height: 7%;
+    margin-top: 145%;
+ }
+
+ footer h2{
+     /* margin: 1%; */
+     text-align: center;
+     font-family: 'Philosopher', sans-serif;
+ }
+
 h1{
     font-weight: 800;
     font-size: 313%;
@@ -78,7 +96,7 @@ h1{
 .homepage li{
     float:left;
     font-size: 115%;
-    margin-left: 21%; 
+    margin-left: 11%; 
     text-align: center;
     font-family: 'Philosopher', sans-serif;
     color: rgb(0, 0, 0);
@@ -86,7 +104,13 @@ h1{
     border-bottom: 1px solid rgb(131, 43, 43);
 }
 
-
+/* #ha{
+    width: 45%;
+    float: left;
+    height: 46%;
+    margin-left: 24%;
+    } */
+    
 .program{
     /* height: 600px; */
     font-family: 'EB Garamond', serif;
@@ -116,11 +140,16 @@ font-family: 'EB Garamond', serif;
 .p1 h3{
     font-size: 95%;
     line-height: 105%;
+    display: inline-block;
+    border-bottom: 1px solid rgb(131, 43, 43);
+    margin: none;
 }
 
 .p3 h3{
     font-size: 95%;
     line-height: 105%;
+    display: inline-block;
+    border-bottom: 1px solid rgb(131, 43, 43);
 }
 .p2{
     width: 33%;
@@ -155,7 +184,6 @@ font-family: 'EB Garamond', serif;
 }
 .menu li {
     /* text-align: center; */
-    list-style: none;
     line-height: 150%;
     font-size: 150%;
     /* margin-top: 3%; */
@@ -208,7 +236,7 @@ font-family: 'EB Garamond', serif;
 }
 
 .s82 section{
-    border: 1px solid black;
+    border: none;
     width: 33%;
     float: left;
     font-family: 'EB Garamond', serif;
@@ -218,14 +246,14 @@ font-family: 'EB Garamond', serif;
 }
 
 #bottom1{
-    border: 1px solid black;
+    border:none;
     width: 50%;
     float: left;
     height: 38%;
 }
 
 #bottom2{
-    border: 1px solid black;
+    border: none;
     width: 50%;
     float: left;
     height: 38%;
@@ -289,6 +317,7 @@ font-family: 'EB Garamond', serif;
     width: 25%;
     height: 45%;
     /* background: pink; */
+    border: none;
 }
 
 .s83 img{
@@ -322,37 +351,25 @@ font-family: 'EB Garamond', serif;
 }
 
 .s86 section{
-    border: 1px solid black;
+    border: none;
     width: 33%;
     float: left;
     font-family: 'EB Garamond', serif;
     text-align: center;
     font-size: 145%;
-    height: 50%;
+    height: 46%;
+    
 }
 
-#bottom1{
-    border: 1px solid black;
-    width: 50%;
-    float: left;
-    height: 38%;
-}
-
-#bottom2{
-    border: 1px solid black;
-    width: 50%;
-    float: left;
-    height: 38%;
-}
 .s86 p{
     display: inline-block;
     margin-block-start: 0em;
     margin-block-end: 0em;
 }
 .s86 img{
-    width: 80%;
-    height: 80%; 
-    margin-left: 10%;
+    width: 65%;
+    height: 60%;
+    margin-left: 16%;
     margin-top: 5%;
     border-radius: 99%;
 }
@@ -412,11 +429,11 @@ font-family: 'EB Garamond', serif;
     height: 46%;
     
 }
-#under{
-width: 50%;
-float: left;
-height: 46%;
-margin-left: 24%;
+    #under{
+    width: 50%;
+    float: left;
+    height: 46%;
+    margin-left: 24%;
 }
 .s89 p{
     display: inline-block;
@@ -504,12 +521,7 @@ margin-left: 24%;
     height: 46%;
     
 }
-#ha{
-width: 30%;
-float: left;
-height: 46%;
-margin-left: 35%;
-}
+
 .s93 p{
     display: inline-block;
     margin-block-start: 0em;
@@ -571,17 +583,16 @@ margin-left: 35%;
 
 #sp08{
     height: 640px;
+    border: none;
 }
-.s08{
-    /* height: 100%; */
-    background: green;
-}
+
 
 .s08 section{
     float: left;
     width: 25%;
     height: 45%;
-    background: pink;
+    border: none;
+    
 }
 
 .s08 img{
@@ -590,6 +601,7 @@ margin-left: 35%;
     margin-left: 10%;
     margin-top: 5%;
     border-radius: 99%;
+    border: none;
 }
 
 .s09 section{
@@ -602,12 +614,7 @@ margin-left: 35%;
     height: 46%;  
 }
 
-#ha{
-width: 50%;
-float: left;
-height: 46%;
-margin-left: 24%;
-}
+
 .s09 p{
     display: inline-block;
     margin-block-start: 0em;
@@ -623,7 +630,7 @@ margin-left: 24%;
 }
 
 .s10 section{
-    border: 1px solid black;
+    border: none;
     width: 33%;
     float: left;
     font-family: 'EB Garamond', serif;
@@ -633,14 +640,14 @@ margin-left: 24%;
 }
 
 #bottom1{
-    border: 1px solid black;
+    border: 1px none;
     width: 50%;
     float: left;
     height: 38%;
 }
 
 #bottom2{
-    border: 1px solid black;
+    border: none;
     width: 50%;
     float: left;
     height: 38%;
@@ -659,7 +666,7 @@ margin-left: 24%;
 }
 
 .f11 section{
-    border: 1px solid black;
+    border: none;
     width: 33%;
     float: left;
     font-family: 'EB Garamond', serif;
@@ -669,14 +676,14 @@ margin-left: 24%;
 }
 
 #bottom1{
-    border: 1px solid black;
+    border: none;
     width: 50%;
     float: left;
     height: 38%;
 }
 
 #bottom2{
-    border: 1px solid black;
+    border: none;
     width: 50%;
     float: left;
     height: 38%;
@@ -701,6 +708,7 @@ margin-left: 24%;
     font-family: 'EB Garamond', serif;
     text-align: center;
     font-size: 145%;
+    /* height: 45%; */
 }
 .s13 p{
     display: inline-block;
@@ -761,7 +769,7 @@ margin-left: 24%;
 }
 
 .s17 section{
-    border: 1px solid black;
+    border: none;
     width: 33%;
     float: left;
     font-family: 'EB Garamond', serif;
@@ -770,13 +778,13 @@ margin-left: 24%;
     height: 50%;
 }
 #bottom1{
-    border: 1px solid black;
+    /* border: 1px solid black; */
     width: 50%;
     float: left;
     height: 38%;
 }
 #bottom2{
-    border: 1px solid black;
+    border: none;
     width: 50%;
     float: left;
     height: 38%;
@@ -796,10 +804,12 @@ margin-left: 24%;
 .f18 section{
     border: none;
     width: 48%;
-    float: left;
+    /* float: left; */
+    height: 43%;
     font-family: 'EB Garamond', serif;
     text-align: center;
     font-size: 145%;
+    margin-left: 24%;
 }
 .f18 p{
     display: inline-block;
@@ -811,7 +821,7 @@ margin-left: 24%;
     height: 80%;
     border: 2px solid white;
     margin-left: 10%;
-    margin-top: 5%;
+    /* margin-top: 5%; */
     border-radius: 99%;
 }
 
@@ -853,7 +863,12 @@ margin-left: 24%;
         text-align: center;
         display: inline-block;
     }
-
+    /* p{
+        font-family: 'EB Garamond', serif;
+        text-align: center;
+        font-weight: 800;
+        font-size: 25%;
+    } */
     .right img{
         width: 80%;
         height: 45%;
@@ -861,7 +876,13 @@ margin-left: 24%;
         border: none;
     }
     .right p{
-        
+        display: inline-block;
+        margin-block-start: 0em;
+        margin-block-end: 0em;
+        font-size: 55%;
+        font-family: 'EB Garamond', serif;
+        text-align: center;
+        font-weight: 600;
     }
 
     #home1{
@@ -906,4 +927,220 @@ margin-left: 24%;
     .p2{
         display: none;
     }
-}
+
+    .s13 img{
+        height: 35%;
+        margin-top: 25%;
+    }
+    
+    #ha{
+        height: 37%;
+        margin-top: 11%; 
+    }
+    
+
+    .s86  section{
+        height: 35%;
+        /* margin-top: 5%; */
+        width: 33%;
+    }
+
+    .s86 img{
+        /* height: 100%;
+        margin-top: 0%; */
+
+    }
+
+    .s89  section{
+        height: 35%;
+        /* margin-top: 5%; */
+        width: 48%;
+    }
+
+    .s89 img{
+        height: 100%;
+        margin-top: 0%;
+        
+    }
+
+    .s93  section{
+        height: 35%;
+        /* margin-top: 5%; */
+        width: 48%;
+    }
+
+    .s93 img{
+        height: 100%;
+        margin-top: 0%;
+        
+    }
+
+    .s09  section{
+        height: 35%;
+        /* margin-top: 5%; */
+        width: 48%;
+    }
+
+    .s09 img{
+        height: 93%;
+        margin-top: 0%;
+    }
+
+    .s96 img{
+        margin-top: 0%;
+        width: 100%;
+        height: 69%;
+    }
+    .s96 p{
+        font-size: 100%;
+    }
+
+    .s17 section{
+        height: 40% ;
+    }
+     .s17 p{
+         font-size: 42%;
+
+    }
+    .s17 img{
+        width: 100%;
+        height: 80%;
+        margin-top: 0%;
+    }
+
+
+    .f18 img{
+        width: 100%;
+        height: 80%;
+        margin-top: 0%;
+    }
+
+    .s08 section{
+        height: 42%;
+    }
+
+
+
+    .s20 img{
+        margin-top: 0%;
+        width: 100%;
+        height: 69%;
+        margin-left: 7%;
+    }
+    .s20 p{
+        font-size: 75%;
+        margin-left: 9%;
+    }
+
+    .s87 img{
+        margin-top: 5%;
+        width: 100%;
+        height: 69%;
+        margin-left: 0%;
+    }
+    .s87 p{
+        font-size: 100%;
+    }
+    .s87 section {
+        width: 70%;
+        margin-left: 10%;
+    }
+    .f82 img{
+        margin-top: 0%;
+        width: 100%;
+        height: 65%;
+        margin-left: 0%;
+    }
+    .f82 p{
+        font-size: 100%;
+    }
+    .f82 section {
+        width: 70%;
+        margin-left: 10%;
+    }
+    .f83{
+        font-size: 80%;
+    }
+    .s88 img{
+        margin-top: 0%;
+        width: 100%;
+        height: 69%;
+        margin-left: 0%;
+    }
+    .s88 p{
+        font-size: 100%;
+        text-align: center;
+    }
+    .s88 section {
+        width: 70%;
+        margin-left: 10%;
+    }
+
+
+    #mike{
+        float: none;
+        margin-left: 33%;
+    }   
+
+
+    #mike img{ 
+        width: 100%;
+        height: 100%;
+
+    }
+
+    .s83 section{
+        width: 25%;
+        height: 22%;
+        text-align: center;
+        margin-top: 5%;
+    }
+
+    .s83 p{
+        font-size: 15%;
+    }
+    #move{
+        margin-left: 11%;
+    }
+    .s83 img{
+        margin: 1%;
+        width: 100%;
+    }
+
+    .s16 p {
+        font-size: 47%;
+    }
+
+    .f16 p {
+        font-size: 43%;
+    }
+    .f16 section{
+        height: 45%;
+    }
+
+    .s16 section{
+        height: 50%;
+    }
+
+    .no p{
+        margin-top: 95%;
+    }
+
+
+    .f89 p{
+        margin-top: 67%;
+    }
+
+    .f91 section{
+        height: 45%;
+        margin-top: 5%;
+    }
+
+    .s07 section{
+        height: 37%;
+    }
+    .s07>.no p{
+        margin-top: 80%;
+    }
+
+
