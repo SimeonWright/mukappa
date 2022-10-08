@@ -26,18 +26,6 @@ header{
     color: white;
     /* font-family: 'Source Sans Pro', sans-serif; */
 }
- footer{
-    background-color: rgb(131, 43, 43);
-    color: white;
-    height: 7%;
-    margin-top: 100%;
- }
-
- footer h2{
-     /* margin: 1%; */
-     text-align: center;
-     font-family: 'Philosopher', sans-serif;
- }
 
 h1{
     font-weight: 800;
@@ -47,8 +35,7 @@ h1{
     margin: 1%;
     /* margin-bottom: 85%; */
     text-align: center;
-    display: inline-block;
-    
+    display: inline-block; 
 }
 
 
@@ -93,7 +80,7 @@ h1{
     margin-left: 5%;
 }
 
-.homepage li{
+/* .homepage li{
     float:left;
     font-size: 115%;
     margin-left: 11%; 
@@ -102,7 +89,7 @@ h1{
     color: rgb(0, 0, 0);
     list-style: none;
     border-bottom: 1px solid rgb(131, 43, 43);
-}
+} */
 
 /* #ha{
     width: 45%;
@@ -188,6 +175,8 @@ font-family: 'EB Garamond', serif;
     font-size: 150%;
     /* margin-top: 3%; */
     opacity: 100%;
+    list-style: none;
+    font-weight: 800;
 }
 
 .Directory{
