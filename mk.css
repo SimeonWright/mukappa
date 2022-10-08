@@ -1023,6 +1023,11 @@ font-family: 'EB Garamond', serif;
         height: 24%;
         margin-left: 35%;
     }
+    .f16 img{
+         width: 90%;
+         height: 80%;
+         margin-top: none;
+    }
 
     .f16>.no p{
         margin-top: 8%;
