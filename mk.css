@@ -26,7 +26,11 @@ header{
     color: white;
     /* font-family: 'Source Sans Pro', sans-serif; */
 }
-
+footer{
+    border: 1px solid black;
+    font-family: 'Philosopher', sans-serif;
+    background-color: rgb(131, 43, 43);
+}
 h1{
     font-weight: 800;
     font-size: 313%;
@@ -60,7 +64,7 @@ h1{
 
 #home1{
     /* border: 2px solid black; */
-    height: 87%;
+    height: 67%;
     width: 33%;
     margin: 0%;
     float: left;
@@ -884,16 +888,15 @@ font-family: 'EB Garamond', serif;
     }
 
     #home1{
-        height: 32%;
+        height: 31%;
         width: 100%;
         margin: 0%;
         float: none;
-        
     }
     #s1{
     
         display: inline-block;
-        margin-top: 10%;
+        margin-top: 24%;
         margin-left: 12%;
         width: 75%;
         height: 75%;
