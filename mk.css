@@ -241,7 +241,7 @@ font-family: 'EB Garamond', serif;
     float: left;
     font-family: 'EB Garamond', serif;
     text-align: center;
-    font-size: 145%;
+    font-size: 100%;
     height: 50%;
 }
 
@@ -276,7 +276,7 @@ font-family: 'EB Garamond', serif;
     float: left;
     font-family: 'EB Garamond', serif;
     text-align: center;
-    font-size: 145%;
+    font-size: 100%;
     margin-left: 25%;
 }
 .f82 p{
@@ -297,7 +297,7 @@ font-family: 'EB Garamond', serif;
     float: left;
     font-family: 'EB Garamond', serif;
     text-align: center;
-    font-size: 145%;
+    font-size: 100%;
 }
 .f83 p{
     display: inline-block;
@@ -316,7 +316,7 @@ font-family: 'EB Garamond', serif;
     float: left;
     width: 25%;
     height: 45%;
-    /* background: pink; */
+    font-size: 100%;
     border: none;
 }
 
@@ -334,7 +334,7 @@ font-family: 'EB Garamond', serif;
     float: left;
     font-family: 'EB Garamond', serif;
     text-align: center;
-    font-size: 145%;
+    font-size: 100%;
 }
 .s84 p{
     display: inline-block;
@@ -356,7 +356,7 @@ font-family: 'EB Garamond', serif;
     float: left;
     font-family: 'EB Garamond', serif;
     text-align: center;
-    font-size: 145%;
+    font-size: 100%;
     height: 46%;
     
 }
@@ -365,11 +365,12 @@ font-family: 'EB Garamond', serif;
     display: inline-block;
     margin-block-start: 0em;
     margin-block-end: 0em;
+    font-size: 2%;
 }
 .s86 img{
     width: 65%;
     height: 60%;
-    margin-left: 16%;
+    margin-left: 6%;
     margin-top: 5%;
     border-radius: 99%;
 }
@@ -381,7 +382,7 @@ font-family: 'EB Garamond', serif;
     float: left;
     font-family: 'EB Garamond', serif;
     text-align: center;
-    font-size: 145%;
+    font-size: 100%;
     margin-left: 25%;
 }
 .s87 p{
@@ -403,7 +404,7 @@ font-family: 'EB Garamond', serif;
     float: left;
     font-family: 'EB Garamond', serif;
     text-align: center;
-    font-size: 145%;
+    font-size: 100%;
     margin-left: 25%;
 }
 .s88 p{
@@ -425,7 +426,7 @@ font-family: 'EB Garamond', serif;
     float: left;
     font-family: 'EB Garamond', serif;
     text-align: center;
-    font-size: 145%;
+    font-size: 100%;
     height: 46%;
     
 }
@@ -454,7 +455,7 @@ font-family: 'EB Garamond', serif;
     float: left;
     font-family: 'EB Garamond', serif;
     text-align: center;
-    font-size: 145%;
+    font-size: 100%;
     margin-left: 25%;
 }
 .f89 p{
@@ -475,7 +476,7 @@ font-family: 'EB Garamond', serif;
     float: left;
     font-family: 'EB Garamond', serif;
     text-align: center;
-    font-size: 145%;
+    font-size: 100%;
     margin-left: 25%;
 }
 .s90 p{
@@ -497,7 +498,7 @@ font-family: 'EB Garamond', serif;
     float: left;
     font-family: 'EB Garamond', serif;
     text-align: center;
-    font-size: 145%;
+    font-size: 100%;
 }
 .f91 p{
     display: inline-block;
@@ -517,7 +518,7 @@ font-family: 'EB Garamond', serif;
     float: left;
     font-family: 'EB Garamond', serif;
     text-align: center;
-    font-size: 145%;
+    font-size: 100%;
     height: 46%;
     
 }
@@ -541,7 +542,7 @@ font-family: 'EB Garamond', serif;
     float: left;
     font-family: 'EB Garamond', serif;
     text-align: center;
-    font-size: 145%;
+    font-size: 100%;
     margin-left: 25%;
 }
 .s96 p{
@@ -563,7 +564,7 @@ font-family: 'EB Garamond', serif;
     float: left;
     font-family: 'EB Garamond', serif;
     text-align: center;
-    font-size: 145%;
+    font-size: 100%;
     height: 46%;
     
 }
@@ -583,7 +584,7 @@ font-family: 'EB Garamond', serif;
 
 #sp08{
     height: 640px;
-    border: none;
+    border: 1px solid black;
 }
 
 
@@ -598,7 +599,7 @@ font-family: 'EB Garamond', serif;
 .s08 img{
     width: 70%;
     height: 65%;
-    margin-left: 10%;
+    margin-left: 3%;
     margin-top: 5%;
     border-radius: 99%;
     border: none;
@@ -610,7 +611,7 @@ font-family: 'EB Garamond', serif;
     float: left;
     font-family: 'EB Garamond', serif;
     text-align: center;
-    font-size: 145%;
+    font-size: 100%;
     height: 46%;  
 }
 
@@ -635,7 +636,7 @@ font-family: 'EB Garamond', serif;
     float: left;
     font-family: 'EB Garamond', serif;
     text-align: center;
-    font-size: 145%;
+    font-size: 100%;
     height: 50%;
 }
 
@@ -671,7 +672,7 @@ font-family: 'EB Garamond', serif;
     float: left;
     font-family: 'EB Garamond', serif;
     text-align: center;
-    font-size: 145%;
+    font-size: 100%;
     height: 50%;
 }
 
@@ -707,7 +708,7 @@ font-family: 'EB Garamond', serif;
     float: left;
     font-family: 'EB Garamond', serif;
     text-align: center;
-    font-size: 145%;
+    font-size: 100%;
     /* height: 45%; */
 }
 .s13 p{
@@ -730,7 +731,7 @@ font-family: 'EB Garamond', serif;
     float: left;
     font-family: 'EB Garamond', serif;
     text-align: center;
-    font-size: 145%;
+    font-size: 100%;
 }
 .s16 p{
     display: inline-block;
@@ -752,7 +753,7 @@ font-family: 'EB Garamond', serif;
     float: left;
     font-family: 'EB Garamond', serif;
     text-align: center;
-    font-size: 145%;
+    font-size: 100%;
 }
 .f16 p{
     display: inline-block;
@@ -774,7 +775,7 @@ font-family: 'EB Garamond', serif;
     float: left;
     font-family: 'EB Garamond', serif;
     text-align: center;
-    font-size: 145%;
+    font-size: 100%;
     height: 50%;
 }
 #bottom1{
@@ -808,7 +809,7 @@ font-family: 'EB Garamond', serif;
     height: 43%;
     font-family: 'EB Garamond', serif;
     text-align: center;
-    font-size: 145%;
+    font-size: 100%;
     margin-left: 24%;
 }
 .f18 p{
@@ -831,7 +832,7 @@ font-family: 'EB Garamond', serif;
     float: left;
     font-family: 'EB Garamond', serif;
     text-align: center;
-    font-size: 145%;
+    font-size: 100%;
     margin-left: 25%;
 }
 .s20 p{
@@ -851,6 +852,7 @@ font-family: 'EB Garamond', serif;
 
     section{
         width: 100%;
+        border: 1px solid black;
     }
 
     h1{
@@ -939,17 +941,12 @@ font-family: 'EB Garamond', serif;
     }
     
 
-    .s86  section{
+    .s86 section{
         height: 35%;
-        /* margin-top: 5%; */
         width: 33%;
     }
 
-    .s86 img{
-        /* height: 100%;
-        margin-top: 0%; */
 
-    }
 
     .s89  section{
         height: 35%;
@@ -993,6 +990,36 @@ font-family: 'EB Garamond', serif;
     }
     .s96 p{
         font-size: 100%;
+    }
+
+    .s13 section{
+        float: none;
+        height: 30%;
+        margin-left: 35%;
+    }
+
+    .s13>.no p{
+        margin-top: 8%;
+    }
+
+    .s16 section{
+        float: none;
+        height: 26%;
+        margin-left: 35%;
+    }
+
+    .s16>.no p{
+        margin-top: 8%;
+    }
+
+    .f16 section{
+        float: none;
+        height: 24%;
+        margin-left: 35%;
+    }
+
+    .f16>.no p{
+        margin-top: 8%;
     }
 
     .s17 section{
@@ -1061,6 +1088,17 @@ font-family: 'EB Garamond', serif;
     .f83{
         font-size: 80%;
     }
+    .f83 section{
+        float: none;
+        height: 30%;
+        margin-left: 35%;
+    }
+
+    .f83 img{
+        width: 80%;
+        height: 80%;
+        margin: 0%;
+    }
     .s88 img{
         margin-top: 0%;
         width: 100%;
@@ -1073,13 +1111,14 @@ font-family: 'EB Garamond', serif;
     }
     .s88 section {
         width: 70%;
-        margin-left: 10%;
+        margin-left: 17%;
     }
 
 
     #mike{
         float: none;
         margin-left: 33%;
+        margin-top: 90%;
     }   
 
 
@@ -1094,11 +1133,11 @@ font-family: 'EB Garamond', serif;
         height: 22%;
         text-align: center;
         margin-top: 5%;
+        font-size: 5%;
+        
     }
 
-    .s83 p{
-        font-size: 15%;
-    }
+
     #move{
         margin-left: 11%;
     }
@@ -1107,20 +1146,6 @@ font-family: 'EB Garamond', serif;
         width: 100%;
     }
 
-    .s16 p {
-        font-size: 47%;
-    }
-
-    .f16 p {
-        font-size: 43%;
-    }
-    .f16 section{
-        height: 45%;
-    }
-
-    .s16 section{
-        height: 50%;
-    }
 
     .no p{
         margin-top: 95%;
@@ -1132,9 +1157,15 @@ font-family: 'EB Garamond', serif;
     }
 
     .f91 section{
-        height: 45%;
-        margin-top: 5%;
+        float: none;
+        height: 30%;
+        margin-left: 35%;
     }
+
+    .f91>.no p{
+        margin-top: 50%;
+    }
+
 
     .s07 section{
         height: 37%;
