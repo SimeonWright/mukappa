@@ -874,7 +874,7 @@ font-family: 'EB Garamond', serif;
     .right img{
         width: 80%;
         height: 45%;
-        margin-top: 15%;
+        /* margin-top: 15%; */
         border: none;
     }
     .right p{
@@ -930,10 +930,6 @@ font-family: 'EB Garamond', serif;
         display: none;
     }
 
-    .s13 img{
-        height: 35%;
-        margin-top: 25%;
-    }
     
     #ha{
         height: 37%;
@@ -992,6 +988,11 @@ font-family: 'EB Garamond', serif;
         font-size: 100%;
     }
 
+    .s13 img{
+        width: 90%;
+        height: 80%;
+        margin-top: none;
+    }
     .s13 section{
         float: none;
         height: 30%;
@@ -1006,6 +1007,11 @@ font-family: 'EB Garamond', serif;
         float: none;
         height: 26%;
         margin-left: 35%;
+    }
+
+    .s16 img{
+        width: 90%;
+        height: 80%;
     }
 
     .s16>.no p{
@@ -1165,7 +1171,10 @@ font-family: 'EB Garamond', serif;
     .f91>.no p{
         margin-top: 50%;
     }
-
+    .f91 img{
+        width: 90%;
+         height: 80%;
+    }
 
     .s07 section{
         height: 37%;
